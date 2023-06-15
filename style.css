@@ -21,11 +21,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: right;
     float: right;
     width: 30%;
     padding-top: 30px;
    margin-bottom: 10px;
+    margin-left: -230px; 
+  
 
   }
   
@@ -172,4 +173,31 @@ footer .boxs:nth-child(4)
   position: relative;
   left: -700px;
   top: -230px;
+}
+
+.search-bar {
+  display: inline-flex;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: transparent;
+  color: white;
+  position: relative;
+  top: -1158px; 
+  margin-left: 280px;
+  border: 2px solid white;
+}
+
+.search-bar input[type="text"] {
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0,5px solid white;
+  background-image: url("lupa.png");
 }
