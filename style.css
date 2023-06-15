@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #001020;
+    color: #fff;
+    padding: 02px;
+  }
+  header img{
+    margin-left: 14px;
+    width: 120px; 
+    height: auto; 
+
+
+}
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    float: right;
+    width: 30%;
+    padding-top: 30px;
+   margin-bottom: 10px;
+
+  }
+  
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  section.hero {
+    background-image: url("caminho/para/imagem.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 100px 20px;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  section.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  section.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4e1010;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  footer {
+    background-color: #D9D9D9;
+    color: #fff;
+    padding: 150px;
+    text-align: center;
+    position: relative;
+    top: -350px;
+
+    
+  }
+  .quadrado{
+    width: 200px;
+    height: 200px;
+    background-color: #D9D9D9;
+    margin: 50px;
+    display: inline-block;
+    padding-top: 90px;
+    border-radius: 8px;
+    position: relative;
+    top: -350px;
+  }
+
+  h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  footer .boxs{
+    width: 320px;
+    min-height: 150px;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .boxs:nth-child(4)
+{
+  width: 400px;
+}
+
+.boxs h3 {
+  color: #000000;
+  margin-botton: 20px;
+
+}
+
+.boxs ul li {
+  margin:10px 0px;
+  list-style: none;
+}
+
+.boxs ul li a {
+  color: #696969;
+  text-decoration: none;
+
+}
+
+.todos{
+  position: relative;
+  left: -550px;
+  top: -200px;
+}
+
+.todos2{
+  position: relative;
+  left: -550px;
+  top: -210px;
+}
+.todos3{
+  position: relative;
+  left: -400px;
+  top: -223px;
+}
+.todos4{
+  position: relative;
+  left: -400px;
+  top: -230px;
+}
+.todos5{
+  position: relative;
+  left: -190px;
+  top: -223px;
+}
+.todos6{
+  position: relative;
+  left: -700px;
+  top: -223px;
+}
+.todos7{
+  position: relative;
+  left: -700px;
+  top: -230px;
+}
