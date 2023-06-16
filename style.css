@@ -191,6 +191,7 @@ footer .boxs:nth-child(4)
   padding: 10px;
   border: none;
   background-color: transparent;
+  color: white 
 }
 
 .search-bar button {
@@ -199,5 +200,5 @@ footer .boxs:nth-child(4)
   background-color: transparent;
   cursor: pointer;
   border: 0,5px solid white;
-  background-image: url("lupa.png");
 }
+
